@@ -26,4 +26,4 @@ jobs:
         with:
           tag_name: build-${{ github.run_number }}
           name: Casino mod build ${{ github.run_number }}
-          files: "**/build/libs/*.jar"
+          files: "**/build/libs/*.jar" 
